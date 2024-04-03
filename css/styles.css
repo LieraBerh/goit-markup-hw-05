@@ -591,7 +591,7 @@ span {
 }
 
 .modal-close {
-    fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button:hover .modal-close,
@@ -688,7 +688,7 @@ span {
     margin-bottom: 24px;
 }
 
-.form-checkbox:checked .span {
+.form-checkbox:checked .checkbox-span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
@@ -739,7 +739,7 @@ span {
     padding: 16px 32px;
     align-self: center;
     text-align: center;
-    transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .submit-button:hover,
