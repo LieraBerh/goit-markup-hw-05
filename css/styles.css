@@ -711,7 +711,7 @@ span {
     fill: transparent;
 }
 
-.form-checkbox:checked .checkbox-span {
+.form-checkbox:checked + .accept .checkbox-span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
